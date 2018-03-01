@@ -13,4 +13,7 @@ if [[ "$1" == "-h" ]]; then
 fi
 
 echo "---> Installing application source"
+echo "########################################"
 cp -Rf /tmp/src/. ./
+
+
